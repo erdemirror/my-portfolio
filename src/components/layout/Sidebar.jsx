@@ -20,7 +20,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
       >
         <div className="p-6">
           <div className="flex justify-between items-center mb-8">
-            <h2 className="text-xl font-bold">Menu</h2>
+            <h2 className="text-xl font-bold">Цэс</h2>
             <button
               onClick={() => setSidebarOpen(false)}
               className="p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
@@ -35,35 +35,35 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
               className="block py-2 px-4 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
               onClick={() => setSidebarOpen(false)}
             >
-              Home
+              Нүүр
             </Link>
             <Link
               to="/about"
               className="block py-2 px-4 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
               onClick={() => setSidebarOpen(false)}
             >
-              About
+              Миний тухай
             </Link>
             <Link
               to="/projects"
               className="block py-2 px-4 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
               onClick={() => setSidebarOpen(false)}
             >
-              Projects
+              Ажлууд
             </Link>
             <Link
               to="/skills"
               className="block py-2 px-4 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
               onClick={() => setSidebarOpen(false)}
             >
-              Skills
+              Чадварууд
             </Link>
             <Link
               to="/contact"
               className="block py-2 px-4 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
               onClick={() => setSidebarOpen(false)}
             >
-              Contact
+              Холбоо барих
             </Link>
           </nav>
         </div>

@@ -5,22 +5,22 @@ const About = () => {
   const skills = [
     {
       icon: Code,
-      title: "Frontend Development",
-      description: "React, Vue, Angular, TypeScript",
+      title: "ˌfrʌnt.end dɪˈvel.əp.mənt",
+      description: "React",
     },
     {
       icon: Zap,
-      title: "Backend Development",
-      description: "Node.js, Python, PHP, Databases",
+      title: "ˌbæk.end dɪˈvel.əp.mənt",
+      description: "Node.js, Python, Databases",
     },
     {
       icon: Palette,
-      title: "UI/UX Design",
-      description: "Figma, Adobe XD, Responsive Design",
+      title: "ˌjuːˈaɪ  / ˌjuːˈeks  dɪˈzaɪn",
+      description: "Figma, Canva, Responsive Design",
     },
     {
       icon: Users,
-      title: "Team Collaboration",
+      title: "tiːm kəˌlæb.əˈreɪ.ʃən",
       description: "Git, Agile, Project Management",
     },
   ];
@@ -28,13 +28,13 @@ const About = () => {
   const achievements = [
     {
       icon: Award,
-      title: "Certified Developer",
-      description: "Full Stack Development Certification",
+      title: "Мундаг даа энэ тэр",
+      description: "Ааваараа миний хүү мундаг гэж хэлүүлж байсан ",
     },
     {
       icon: BookOpen,
-      title: "Continuous Learning",
-      description: "Always exploring new technologies",
+      title: "Сайн сурч сурсаан хахаха",
+      description: "Шинэ технологи сурахдаа сайн гэж боддог доо",
     },
   ];
 
