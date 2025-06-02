@@ -35,7 +35,7 @@ const AnimatedBackground = () => {
       setTimeout(() => {
         setMeteors((prev) => prev.filter((m) => m.id !== newMeteor.id));
       }, 3500);
-    }, 800); // spawn every 800ms
+    }, 200); // spawn every 800ms
 
     return () => clearInterval(meteorInterval);
   }, []);
