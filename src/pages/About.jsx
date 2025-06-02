@@ -41,7 +41,7 @@ const About = () => {
   return (
     <div className="min-h-screen py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        {/* Header */}
+        {/* header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
             Миний талаар
@@ -51,9 +51,9 @@ const About = () => {
           </p>
         </div>
 
-        {/* Main Content */}
+        {/* main contento */}
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
-          {/* Left Column - Image and Personal Info */}
+          {/* left */}
           <div className="space-y-8">
             <div className="relative">
               <div className="w-full max-w-md mx-auto">
@@ -92,7 +92,7 @@ const About = () => {
             </div>
           </div>
 
-          {/* Right Column - Story and Values */}
+          {/* right*/}
           <div className="space-y-8">
             <div className="bg-white/5 dark:bg-black/20 backdrop-blur-lg rounded-xl p-8 border border-white/10 dark:border-gray-700">
               <h3 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white">
@@ -137,7 +137,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Skills Section */}
+        {/* skillz */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-800 dark:text-white">
             Би юу хийдэг юм бол ?
@@ -160,7 +160,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Achievements */}
+        {/* failures */}
         <div>
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-800 dark:text-white">
             Амжилтууд

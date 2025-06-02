@@ -14,7 +14,7 @@ const Navbar = ({ darkMode, setDarkMode, sidebarOpen, setSidebarOpen }) => {
             Юу гэж бичихээ мэддэггүй ээ
           </Link>
 
-          {/* Desktop Navigation */}
+          {/*main*/}
           <div className="hidden md:flex items-center space-x-8">
             <Link
               to="/"
@@ -49,7 +49,7 @@ const Navbar = ({ darkMode, setDarkMode, sidebarOpen, setSidebarOpen }) => {
             <DarkModeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
           </div>
 
-          {/* Mobile menu button */}
+          {/* sidebar appear*/}
           <div className="md:hidden flex items-center space-x-4">
             <DarkModeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
             <button

@@ -81,7 +81,7 @@ const Contact = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact Information */}
+          {/* contact*/}
           <div>
             <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">
               Холбогдох мэдээлэл
@@ -135,7 +135,7 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Contact Form */}
+          {/* form*/}
           <div className="bg-white/10 dark:bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-white/20 dark:border-gray-700/50">
             <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">
               Мессеж илгээх
