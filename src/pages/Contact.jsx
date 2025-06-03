@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 import {
   Mail,
   Phone,
@@ -17,6 +18,7 @@ const Contact = () => {
     subject: "",
     message: "",
   });
+  const [status, setStatus] = useState("");
 
   const handleChange = (e) => {
     setFormData({
@@ -25,12 +27,21 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log("За илгээсэн2:", formData);
-    alert("Илгээчихсээээээн.");
-    setFormData({ name: "", email: "", subject: "", message: "" });
+    setStatus("sending...");
+    try {
+      const res = await axios.post(
+        "http://localhost:5000/api/contact",
+        formData
+      );
+      alert("Амжилттай илгээгдлээ!");
+
+      setStatus(res.data.message || "Явуулсан!");
+      setFormData({ name: "", email: "", subject: "", message: "" });
+    } catch (err) {
+      setStatus("Илгээж чадсангүй.");
+    }
   };
 
   const contactInfo = [
